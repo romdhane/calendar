@@ -1075,6 +1075,12 @@ VipCell.prototype.addEvent = function(info)
 		if (vipevt.timestamp < vipsib.timestamp)
 			break;
 
+		if (vipevt.timestamp == vipsib.timestamp)
+		{
+			if (vipevt.info.calendar < vipsib.info.calendar)
+				break;
+		}
+
 		vipsib = vipsib.Next();
 	}
 

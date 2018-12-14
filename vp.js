@@ -1,7 +1,9 @@
 function vp_main($scope, $timeout, $window)
 {
 	var gAccount = new AuthAccount();
-	gAccount.authClientID = '304094492573-vgmnc6pr5tf1va809qpoc6sri6amiptk.apps.googleusercontent.com';  // vp
+	gAccount.authClientID = '257986427299-1u5tr72dhbgssti20dpeb1n08gikfm7l.apps.googleusercontent.com';  // vp
+	// new 257986427299-1u5tr72dhbgssti20dpeb1n08gikfm7l.apps.googleusercontent.com
+	// old 304094492573-vgmnc6pr5tf1va809qpoc6sri6amiptk.apps.googleusercontent.com
 	gAccount.authScope = 'https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/drive.appdata';
 
 	var gAppData = new AuthAppData();
